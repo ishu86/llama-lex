@@ -1,0 +1,38 @@
+# Secrets
+.env
+*.env
+
+# Models / large artifacts
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.ckpt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Unsloth compiled cache
+unsloth_compiled_cache/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+wandb/
+runs/
+outputs/
+
+# Scraped / derived datasets (not redistributed)
+data/*.json
